@@ -101,6 +101,59 @@ nav .right-nav, nav .right-nav-item a{
     box-shadow:0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
    
 }
+.carrosel{
+    display: block;
+    overflow: hidden;
+}
+.carrosel-button{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border: transparent;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px 0.1px  #888888;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    transition: all 2ms ease-in;
+}
+.carrosel-button img{
+    width: 0.7rem;
+}
+.back{
+    left: 1.2rem;
+}
+.go{
+    right: 1.2rem;
+    
+}
+.carrosel-button:hover{
+    background-color: #c0c0c0;
+    transform: translate(5%, 5%)
+}
+.carrosel-slide{
+    position: absolute;
+  
+}
+.carrosel-nav{
+    display: flex;
+    position: absolute;
+    top: 30rem;
+    width: 100%;
+    justify-content: center;
+}
+.carrosel-nav-button{
+    opacity: 50%;
+    background-color: #747474;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 100%;
+    border: transparent;
+    margin: 0.2rem;
+}
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
