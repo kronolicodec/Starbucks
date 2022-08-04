@@ -12,23 +12,21 @@ const slide_width = slides[0].getBoundingClientRect().width;
 slides.forEach((slide, i) =>{
     slide.style.left = slide_width*i+'px';
 })
+function move_to_slide(track, current,target ){
+    track.style.transform = 'translateX(-'+target.style.left+')';
+    current.classList.remove("slide-atual");
+    current.classList.add('invisible');
+    target.classList.remove("invisible");
+    target.classList.add("slide-atual");
+}
 back.addEventListener('click', e=>{
-    const current = track.querySelector(".slide-atual")
-    const previously = current.previousElementSibling;
-    const move = previously.style.left;
-    track.style.transform = 'translateX(-'+move+')';
-    current.classList.remove("slide-atual")
-    current.classList.add('invisible')
-    previously.classList.remove("invisible")
-    previously.classList.add("slide-atual");;
+   const current = track.querySelector(".slide-atual");
+   const previous = current.previousElementSibling;
+   move_to_slide(track, current, previous);
+
 })
 go.addEventListener('click', e=>{
     const current = track.querySelector(".slide-atual")
     const next = current.nextElementSibling;
-    const move = next.style.left;
-    track.style.transform = 'translateX(-'+move+')';
-    current.classList.remove("slide-atual")
-    current.classList.add('invisible')
-    next.classList.remove("invisible")
-    next.classList.add("slide-atual");;
+    move_to_slide(track, current, next)
 })
