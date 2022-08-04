@@ -185,7 +185,7 @@ left: 45%;
     height: 0.8rem;
     border-radius: 100%;
     border: transparent;
- 
+    cursor: pointer;
     margin: 0 auto;
 }
 .carrosel-nav> .slide-atual {
