@@ -4,8 +4,6 @@ const back = document.querySelector(".back");
 const go = document.querySelector(".go");
 const dots_nav = document.querySelector(".carrosel-nav");
 const dots = Array.from(dots_nav.children)
-
-
 const slide_width = slides[0].getBoundingClientRect().width;
 
 slides.forEach((slide, i) =>{
