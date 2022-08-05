@@ -105,7 +105,7 @@ main{
     display: block;
     max-width: 1440px;
     margin: 0  auto;
-
+    
     
 }
 .carrosel{
@@ -195,6 +195,308 @@ left: 45%;
 .invisible{
     opacity: 0;
     display: none;
+}
+.saude{
+    
+    background-color: #D4E9E2;
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    top: 70px;
+    padding: 1rem 6rem ;
+    box-sizing: border-box;
+    width: 100%;
+    
+
+    
+
+} 
+.saude-p{
+   font-family: 'Sodo Sans SemiBold';
+   color: #33433d;
+   line-height: 2rem;
+   margin: 1rem auto 3rem auto;
+   text-align: center;
+   display: block;
+   width: 70%;
+   font-size: 1.1rem;
+   
+}
+.button-saude{
+    width: 100%;
+    
+    bottom: 10%;
+}
+.saude-button{
+    font-family: 'Sodo Sans SemiBold';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #33433d;
+    display: block;
+    margin: -3rem auto;
+    overflow: hidden;
+    background-color: #D4E9E2;
+    padding: 10px 20px;
+    border: 1px solid #33433d;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: all 0.1s ease-in;
+}
+.saude-button:hover{
+    font-size: 1.0rem;
+    transform: scale(0.95);
+    box-shadow: 0 3px 5px 1px #33433d;
+    background-color: #bad3ca;
+}
+.covid{
+    background-color: #D4E9E2;
+    display: flex;
+    flex-direction:row;
+    
+    position: relative;
+    top: 100px;
+
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+.img-covid{
+    object-fit: cover;
+    width:47.26%;
+    
+}
+.covidiv{
+    margin: auto;
+}
+.covid-p{
+    font-family: 'Sodo Sans SemiBold';
+    color: #33433d;
+    line-height: 2rem;
+    margin: 1rem auto 3rem auto;
+    text-align: center;
+    display: block;
+    width: 70%;
+    font-size: 1.1rem;
+    
+ }
+ .covid-header{
+    font-family: 'Sodo Sans SemiBold';
+    color: #33433d;
+    line-height: 2rem;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    display: block;
+    width: 70%;
+    font-size: 1.4rem;
+    
+ }
+.covid-button{
+    font-family: 'Sodo Sans SemiBold';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #33433d;
+    display: block;
+    margin: 3rem auto;
+    overflow: hidden;
+    background-color: #D4E9E2;
+    padding: 10px 20px;
+    border: 1px solid #33433d;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: all 0.1s ease-in;
+}
+.covid-button:hover{
+    font-size: 1.0rem;
+    transform: scale(0.95);
+    box-shadow: 0 3px 5px 1px #33433d;
+    background-color: #bad3ca;
+}
+.pausa{
+    background-color: #D4E9E2;
+    display: flex;
+    flex-direction:row;
+    
+    position: relative;
+    top: 130px;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+.img-pausa{
+    width:47.26%;
+    object-fit: cover;
+}
+.pausadiv{
+    margin: auto;
+}
+.pausa-p{
+    font-family: 'Sodo Sans SemiBold';
+    color: #33433d;
+    line-height: 2rem;
+    margin: 1rem auto 3rem auto;
+    text-align:center;
+    display: block;
+    width: auto;
+    font-size: 1.2rem;
+    
+ }
+ .pausa-header{
+    font-family: 'Sodo Sans SemiBold';
+    color: #33433d;
+    line-height: 2rem;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    display: block;
+    width: 70%;
+    font-size: 1.4rem;
+    
+ }
+.pausa-button{
+    font-family: 'Sodo Sans SemiBold';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #33433d;
+    display: block;
+    margin: 3rem auto;
+    overflow: hidden;
+    background-color: #D4E9E2;
+    padding: 10px 20px;
+    border: 1px solid #33433d;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: all 0.1s ease-in;
+}
+.pausa-button:hover{
+    font-size: 1.0rem;
+    transform: scale(0.95);
+    box-shadow: 0 3px 5px 1px #33433d;
+    background-color: #bad3ca;
+}
+.ongs{
+    background-color: #D4E9E2;
+    display: flex;
+    flex-direction:row;
+    
+    position: relative;
+    top: 160px;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+.img-ongs{
+    width:47.26%;
+    object-fit: cover;
+}
+.ongsdiv{
+    margin: auto;
+}
+.ongs-p{
+    font-family: 'Sodo Sans SemiBold';
+    color: #33433d;
+    line-height: 2rem;
+    margin: 1rem auto 3rem auto;
+    text-align:center;
+    display: block;
+    width: 70%;
+    font-size: 1.2rem;
+    
+ }
+ .ongs-header{
+    font-family: 'Sodo Sans SemiBold';
+    color: #33433d;
+    line-height: 2rem;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    display: block;
+    width: 70%;
+    font-size: 1.4rem;
+    
+ }
+.ongs-button{
+    font-family: 'Sodo Sans SemiBold';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #33433d;
+    display: block;
+    margin: 3rem auto;
+    overflow: hidden;
+    background-color: #D4E9E2;
+    padding: 10px 20px;
+    border: 1px solid #33433d;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: all 0.1s ease-in;
+}
+.ongs-button:hover{
+    font-size: 1.0rem;
+    transform: scale(0.95);
+    box-shadow: 0 3px 5px 1px #33433d;
+    background-color: #bad3ca;
+}
+.funcionarios{
+    background-color: #D4E9E2;
+    display: flex;
+    flex-direction:row;
+    
+    position: relative;
+    top: 190px;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+.img-funcionarios{
+    width:47.26%;
+   
+    object-fit: cover;
+}
+.funcionarios-div{
+    margin: auto;
+}
+.func-p{
+    font-family: 'Sodo Sans SemiBold';
+    color: #33433d;
+    line-height: 2rem;
+    margin: 1rem auto 3rem auto;
+    text-align:center;
+    display: block;
+    width: 70%;
+    font-size: 1.2rem;
+    
+ }
+ .func-header{
+    font-family: 'Sodo Sans SemiBold';
+    color: #33433d;
+    line-height: 2rem;
+    margin: 1rem auto 1rem auto;
+    text-align: center;
+    display: block;
+    width: 70%;
+    font-size: 1.4rem;
+    
+ }
+.func-button{
+    font-family: 'Sodo Sans SemiBold';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #33433d;
+    display: block;
+    margin: 3rem auto;
+    overflow: hidden;
+    background-color: #D4E9E2;
+    padding: 10px 20px;
+    border: 1px solid #33433d;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: all 0.1s ease-in;
+ 
+}
+.func-button:hover{
+    font-size: 1.0rem;
+    transform: scale(0.95);
+    box-shadow: 0 3px 5px 1px #33433d;
+    background-color: #bad3ca;
 }
 ::-webkit-scrollbar {
     width: 6px;
